@@ -16,7 +16,7 @@ from collections import Counter
 # OntoNotes genres. ``pt`` (Old/New Testament) carries no named-entity layer and
 # is excluded from every NER experiment in the paper -- kept in the list only so
 # the converter can report it.
-GENRES = ["bc", "bn", "mz", "nw", "pt", "tc", "wb"]
+GENRES = ["bc", "bn", "mz", "nw", "tc", "wb"]
 
 # The paper regroups the six NER sources into four genres.
 NEWS = ["bn", "mz", "nw"]                     # paper's "News" genre
